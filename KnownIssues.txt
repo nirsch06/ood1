@@ -1,0 +1,28 @@
+================================================================
+KnownIssues - Object-Oriented Design (OOD) Assignment 1
+================================================================
+
+Version Information:
+----------------
+Course: 10119 - Object-Oriented Design
+Assignment: 1
+
+Known Issues/Bugs:
+----------------
+1. None: System functions as expected.
+Changes/Refactoring:
+----------------
+1. Data Structure Refactoring (Collection Usage):
+   - Description: Replaced arrays/List implementations with HashSet Collections 
+     to ensure uniqueness and performance, in compliance with course requirements.
+   - Files and Lines:
+     * college.java:
+       - Line 9: private HashSet<Lecturer> Lecturers
+       - Line 11: private HashSet<Department> departments
+       - Line 13: private HashSet<Committee> Committees
+     * Department.java:
+       - Line 11: private HashSet<Lecturer> Lecturers
+     * Committee.java:
+       - Line 9: private HashSet<Lecturer> Committee_members
+     * doctor.java:
+       - Line 8: java.util.HashSet<String> articles
