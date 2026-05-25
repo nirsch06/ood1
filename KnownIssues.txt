@@ -1,0 +1,17 @@
+================================================================
+KnownIssues - Gradle Unit Testing Assignment
+================================================================
+
+Version Information:
+----------------
+Course: Object-Oriented Design (תיכון מונחה עצמים)
+Assignment: Unit Testing Assignment
+
+Known Issues/Bugs:
+----------------
+1. None: No bugs were encountered during the development and testing phases.
+
+Changes/Refactoring:
+----------------
+1. Library Management:
+   - Description: Adjusted and imported the necessary Gradle dependencies to ensure proper project configuration and test execution.
